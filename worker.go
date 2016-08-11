@@ -17,7 +17,7 @@ func main() {
 	)
 	flag.Parse()
 
-	var v url.Values
+	v := url.Values{}
 	{
 		v.Set("left_displayname", *name)
 		v.Set("employee_passwd", *password)
